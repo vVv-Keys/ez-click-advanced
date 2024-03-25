@@ -1,4 +1,4 @@
-# EZ CLICK ADVANCED ( Advanced Mouse Clicker Macro )
+# EZ CLICK ADVANCED (Advanced Mouse Clicker Macro)
 
 The "Advanced Mouse Clicker Macro" is a versatile script designed to automate mouse clicking actions on your computer. Whether you're engaged in gaming, performing repetitive tasks, or seeking to streamline your workflow, this macro script offers a range of advanced features to meet your needs.
 
@@ -12,10 +12,13 @@ The "Advanced Mouse Clicker Macro" is a versatile script designed to automate mo
 
 ## How to Use
 
-1. **Download and Install AutoHotkey:** Ensure AutoHotkey is installed on your computer to run the macro script.
-2. **Customize Settings (Optional):** Tailor the script to your preferences by adjusting click patterns, click intervals, and hotkeys.
-3. **Run the Script:** Double-click the script file to run it using AutoHotkey. The script will run in the background, ready to automate mouse clicking actions.
-4. **Control Clicking:** Use the assigned hotkeys to toggle clicking on/off (`F1`) or pause/resume clicking (`F3`), providing convenient control over the automation process.
+### Using AutoHotkey (For script execution):
+1. **Download and Install AutoHotkey:** Ensure AutoHotkey is installed on your computer.
+2. **Run the Script:** Double-click the script file (`Advanced_Mouse_Clicker_Macro.ahk`) to run it using AutoHotkey. The script will run in the background, ready to automate mouse clicking actions.
+
+### Without AutoHotkey (For compiled executable):
+1. **Download the Executable:** If you don't have AutoHotkey installed, you can still use the macro by downloading the compiled executable (`Advanced_Mouse_Clicker_Macro.exe`) from the [Releases](https://github.com/your_username/your_repository/releases) section of this repository.
+2. **Run the Executable:** Double-click the executable file to run the macro without needing AutoHotkey. The script will execute and automate mouse clicking actions on your computer.
 
 Experience enhanced productivity and efficiency with the "Advanced Mouse Clicker Macro" script, empowering you to automate mouse clicking actions effortlessly.
 
