@@ -19,12 +19,7 @@ The "Advanced Mouse Clicker Macro" is a versatile script designed to automate mo
 
 Experience enhanced productivity and efficiency with the "Advanced Mouse Clicker Macro" script, empowering you to automate mouse clicking actions effortlessly.
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
-
-
-## How to Use
 
 ### Using AutoHotkey (For script execution):
 1. **Download and Install AutoHotkey:** Ensure AutoHotkey is installed on your computer.
