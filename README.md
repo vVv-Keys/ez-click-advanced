@@ -17,11 +17,15 @@ The "Advanced Mouse Clicker Macro" is a versatile script designed to automate mo
 2. **Run the Script:** Double-click the script file (`Advanced_Mouse_Clicker_Macro.ahk`) to run it using AutoHotkey. The script will run in the background, ready to automate mouse clicking actions.
 
 ### Without AutoHotkey (For compiled executable):
-1. **Download the Executable:** If you don't have AutoHotkey installed, you can still use the macro by downloading the compiled executable (`Advanced_Mouse_Clicker_Macro.exe`) from the [Releases](https://github.com/your_username/your_repository/releases) section of this repository.
-2. **Run the Executable:** Double-click the executable file to run the macro without needing AutoHotkey. The script will execute and automate mouse clicking actions on your computer.
+Install AutoHotkey Compiler (Ahk2Exe): If you haven't already, download and install the AutoHotkey compiler (Ahk2Exe) from the official AutoHotkey website.
 
-Experience enhanced productivity and efficiency with the "Advanced Mouse Clicker Macro" script, empowering you to automate mouse clicking actions effortlessly.
+Compile the Script:
 
+Open the Ahk2Exe compiler.
+Click on "Browse" to select the script file (Advanced_Mouse_Clicker_Macro.ahk).
+Choose an output location for the compiled executable.
+Optionally, you can set compiler options such as icon, compression, etc.
+Click on "Convert" or "Compile Script" to generate the executable file.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
