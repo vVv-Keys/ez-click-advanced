@@ -40,6 +40,4 @@ Click on "Browse" to select the script file (Advanced_Mouse_Clicker_Macro.ahk).
 Choose an output location for the compiled executable.
 Optionally, you can set compiler options such as icon, compression, etc.
 Click on "Convert" or "Compile Script" to generate the executable file.
-## License
 
-This project is licensed under the [MIT License](LICENSE).
