@@ -49,3 +49,5 @@ Choose an output location for the compiled executable.
 Optionally, you can set compiler options such as icon, compression, etc.
 Click on "Convert" or "Compile Script" to generate the executable file.
 
+
+# WILL BE ADDING MORE TO THIS OVER TIME, FEEL FREE TO FORK/CONTRIBUTE FOR YOUR OWN USE - ALL STARS AND LOVE APPRECIATED. AM PROGRAMMING NOOB BUT WILL FIGURE IT OUT ONE DAY AT A TIME :D -
