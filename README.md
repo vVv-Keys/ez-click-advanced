@@ -11,43 +11,46 @@
               ░ ░ 
 ```
 
-# ez-click-advanced (Advanced Mouse Clicker Macro)
+# AutoHotkey Advanced Mouse Clicker Macro
 
-The "Advanced Mouse Clicker Macro" is a versatile script designed to automate mouse clicking actions on your computer. Whether you're engaged in gaming, performing repetitive tasks, or seeking to streamline your workflow, this macro script offers a range of advanced features to meet your needs.
+The AutoHotkey Advanced Mouse Clicker Macro is a versatile script designed to automate mouse clicking actions on your computer. Whether you're engaged in gaming, performing repetitive tasks, or seeking to streamline your workflow, this macro script offers a range of advanced features to meet your needs.
 
-## Key Features
+## Features
 
 - **Customizable Click Patterns:** Define and execute custom click patterns to perform multiple clicks in a sequence, tailored to your specific requirements.
 - **Smooth Mouse Movement:** Enjoy natural and fluid mouse movement as the cursor gradually moves to the target position, enhancing user experience and accuracy.
 - **Pause/Resume Functionality:** Pause and resume clicking at any time with ease, allowing for seamless control over the automation process.
 - **Visual Feedback:** Receive clear visual indicators to know when clicking is active or paused, providing transparency and user-friendly interaction.
-- **Easy Setup:** Simple setup process enables quick deployment of the macro script, allowing users to start automating tasks efficiently.
+- **Error Handling:** Checks if the mouse position is valid and provides an alert if it's not.
+- **Logging:** Log actions performed by the script, enhancing troubleshooting and debugging.
+- **Configurability:** Load and save user settings from/to a configuration file for persistence across script executions.
+- **Safety Features:** Provides a confirmation dialog before starting clicking to prevent accidental activation.
+- **Compatibility:** Ensures compatibility with different screen resolutions and DPI settings.
 
-## How to Use
+## Setup
 
-1. **Download and Install AutoHotkey:** Ensure AutoHotkey is installed on your computer to run the macro script.
-2. **Customize Settings (Optional):** Tailor the script to your preferences by adjusting click patterns, click intervals, and hotkeys.
-3. **Run the Script:** Double-click the script file to run it using AutoHotkey. The script will run in the background, ready to automate mouse clicking actions.
-4. **Control Clicking:** Use the assigned hotkeys to toggle clicking on/off (`F1`) or pause/resume clicking (`F3`), providing convenient control over the automation process.
+1. **Install AutoHotkey:** Ensure AutoHotkey is installed on your computer. You can download it from [here](https://www.autohotkey.com/).
+   
+2. **Download the Script:** Download the script file (`Advanced_Mouse_Clicker_Macro.ahk`) from this repository.
 
-Experience enhanced productivity and efficiency with the "Advanced Mouse Clicker Macro" script, empowering you to automate mouse clicking actions effortlessly.
+3. **Customize Settings (Optional):** Modify the script to your preferences by adjusting click patterns, click intervals, and hotkeys directly in the script file.
 
+4. **Run the Script:** Double-click the script file (`Advanced_Mouse_Clicker_Macro.ahk`) to run it using AutoHotkey. The script will run in the background, ready to automate mouse clicking actions.
 
+5. **Control Clicking:** Use the assigned hotkeys to toggle clicking on/off (`F1`) or pause/resume clicking (`F3`), providing convenient control over the automation process.
 
-### Using AutoHotkey (For script execution):
-1. **Download and Install AutoHotkey:** Ensure AutoHotkey is installed on your computer.
-2. **Run the Script:** Double-click the script file (`Advanced_Mouse_Clicker_Macro.ahk`) to run it using AutoHotkey. The script will run in the background, ready to automate mouse clicking actions.
+## Usage
 
-### Without AutoHotkey (For compiled executable):
-Install AutoHotkey Compiler (Ahk2Exe): If you haven't already, download and install the AutoHotkey compiler (Ahk2Exe) from the official AutoHotkey website.
+Once the script is running, you can utilize its features to automate mouse clicking actions as per your requirements. Use the defined hotkeys to start/stop clicking and to pause/resume the clicking process.
 
-Compile the Script:
+## Contributing
 
-Open the Ahk2Exe compiler.
-Click on "Browse" to select the script file (Advanced_Mouse_Clicker_Macro.ahk).
-Choose an output location for the compiled executable.
-Optionally, you can set compiler options such as icon, compression, etc.
-Click on "Convert" or "Compile Script" to generate the executable file.
+Contributions are welcome! If you have suggestions for improvements, new features, or bug fixes, please feel free to open an issue or submit a pull request on this repository.
 
+## License
 
-# WILL BE ADDING MORE TO THIS OVER TIME, FEEL FREE TO FORK/CONTRIBUTE FOR YOUR OWN USE - ALL STARS AND LOVE APPRECIATED. AM PROGRAMMING NOOB BUT WILL FIGURE IT OUT ONE DAY AT A TIME :D -
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Feel free to fork or contribute to this project. All stars and contributions are greatly appreciated. As I continue learning and improving, I aim to make this script more robust and user-friendly with each update. Thank you for your support and happy clicking! :D
