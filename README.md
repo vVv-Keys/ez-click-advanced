@@ -53,4 +53,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Feel free to fork or contribute to this project. All stars and contributions are greatly appreciated. As I continue learning and improving, I aim to make this script more robust and user-friendly with each update. Thank you for your support and happy clicking! :D
+I updated the AHK because it had a few followers and a watch. I hope you enjoy. Any suggestions or request feel free to ask will try to get it fixed ASAP.
+
+ALSO I didn't really TEST this version of the updated script so it might have some bugs/errors possibly(DOUBTIT) <-- but just incase please make an issue request and will get it handled asap or PULL AND FIX FOR ME IF YOU A REAL 1 <3
