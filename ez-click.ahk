@@ -114,3 +114,50 @@ SmoothMouseMove(TargetX, TargetY, Duration := 200) {
     }
     DllCall("mouse_event", uint, 1, int, TargetX-StartX, int, TargetY-StartY, uint, 0, int, 0) ; MOUSEEVENTF_MOVE
 }
+
+; Error Handling: Check if mouse position is valid
+CheckMousePosition() {
+    MouseGetPos, MouseX, MouseY
+    if (MouseX < 0 || MouseY < 0 || MouseX > A_ScreenWidth || MouseY > A_ScreenHeight) {
+        MsgBox, Invalid mouse position detected. Please reset the position using F2.
+        return false
+    }
+    return true
+}
+
+; Logging: Log actions performed by the script
+LogAction(action) {
+    FormatTime, CurrentDateTime,, yyyy-MM-dd HH:mm:ss
+    FileAppend, %CurrentDateTime% - %action%`n, script_log.txt
+}
+
+; Configurability: Load user settings from configuration file
+LoadConfig() {
+    ; Example: Load settings from a configuration file
+    ; Implement loading logic here
+}
+
+; Configurability: Save user settings to configuration file
+SaveConfig() {
+    ; Example: Save settings to a configuration file
+    ; Implement saving logic here
+}
+
+; Safety Features: Confirmation dialog before starting clicking
+ConfirmClicking() {
+    MsgBox, Are you sure you want to start clicking?`nPress OK to continue or Cancel to abort.
+    if (ErrorLevel) {
+        return false
+    }
+    return true
+}
+
+; Compatibility: Ensure compatibility with different screen resolutions and DPI settings
+CheckCompatibility() {
+    ; Check and handle compatibility issues here
+}
+
+; Call additional functions
+CheckMousePosition()
+LoadConfig()
+CheckCompatibility()
