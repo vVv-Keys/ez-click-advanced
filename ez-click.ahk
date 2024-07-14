@@ -16,13 +16,8 @@ CustomClickPatterns := {
 }
 
 ; Hotkey to start/stop clicking (F1 to toggle, F3 to pause/resume)
-F1::
-    ToggleClicking()
-return
-
-F3::
-    TogglePause()
-return
+F1::ToggleClicking()
+F3::TogglePause()
 
 ; Hotkey to set custom click location (F2)
 F2::
@@ -34,7 +29,6 @@ return
 ClickLoop:
     if (Paused)
         return
-    
     ExecuteClickPattern("Double Click") ; Execute a specific click pattern (change as needed)
     Random, RandomInterval, 750, 1250 ; Randomize click interval between 0.75s and 1.25s
     SetTimer, ClickLoop, %RandomInterval%
@@ -44,7 +38,7 @@ return
 ExecuteClickPattern(patternName) {
     pattern := CustomClickPatterns[patternName]
     if (pattern) {
-        Loop, % pattern.MaxIndex()
+        for each, action in pattern
             SingleClick()
     }
 }
@@ -57,6 +51,10 @@ SingleClick() {
 ToggleClicking() {
     Clicking := !Clicking
     if (Clicking) {
+        if (!ConfirmClicking()) {
+            Clicking := false
+            return
+        }
         SetTimer, ClickLoop, %ClickInterval%
         SetTimer, UpdateCursor, 100 ; Check every 100 milliseconds to update cursor
         MsgBox, Clicking started. Press F1 to stop or F3 to pause.
@@ -145,11 +143,8 @@ SaveConfig() {
 
 ; Safety Features: Confirmation dialog before starting clicking
 ConfirmClicking() {
-    MsgBox, Are you sure you want to start clicking?`nPress OK to continue or Cancel to abort.
-    if (ErrorLevel) {
-        return false
-    }
-    return true
+    MsgBox, 4, Confirmation, Are you sure you want to start clicking?
+    return (MsgBoxResult = "Yes")
 }
 
 ; Compatibility: Ensure compatibility with different screen resolutions and DPI settings
